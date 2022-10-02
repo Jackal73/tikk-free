@@ -1,0 +1,23 @@
+.message-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.message-history:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.message {
+  padding: 1rem;
+  width: 80%;
+  border: 1px solid #ced4da;
+  border-radius: .4rem;
+}
+
+textarea.form-control {
+  padding : 0 !important;
+  margin: 0 !important;
+}

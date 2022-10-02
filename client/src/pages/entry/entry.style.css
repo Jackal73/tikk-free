@@ -1,0 +1,10 @@
+.entry-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  box-shadow: 5px 5px 15px 8px rgba(0, 0, 0, .4);
+}

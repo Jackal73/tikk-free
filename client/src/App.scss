@@ -1,0 +1,39 @@
+// :root {
+//   clr1: #d825f0;
+//   clr2: #5b25f0;
+// }
+
+body {
+  background: #aa9696 !important;
+  min-height: 100vh;
+}
+
+// login page
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login-form {
+    background-color: #90b9cee8 !important;
+    border: 1px solid #ccc;
+    margin-top: 10vh;
+    padding-bottom: 5rem;
+    padding: 20px;
+    box-shadow: -5px 5px 10px #ccc;
+  }
+
+  .input-fields {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .form-bottom {
+    margin-left: 2rem;
+  }
+
+  .text-end {
+    margin-top: 2rem;
+    float: right;
+  }
+}

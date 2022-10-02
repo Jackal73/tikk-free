@@ -1,0 +1,104 @@
+.default-layout {
+  /* display: flex; */
+  display: block;
+  grid-template-rows: 80px auto 3rem;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  min-height: 88vh;
+  position: relative;
+}
+
+main::after {
+  content: "";
+  background:  url(./assets/img/freedom-bg1.jpg) top center no-repeat black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  opacity: .09;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+footer {
+  grid-area: footer;
+  background: #000;
+  padding: .75rem;
+  color: #fff;
+}
+
+.breadcrumb>.active a {
+  /* color: rgba(13, 30, 39, 1) !important; */
+  font-weight: 500;
+  color: #000080 !important;
+}
+
+.breadcrumb, .soft-back {
+  background-color: rgba(0, 0, 80, 0.05) !important;
+}
+
+.hard-back {
+  background: hsla(212, 58%, 12%, 1);
+  background: linear-gradient(360deg, hsla(212, 58%, 12%, 1) 40%, hsla(217, 100%, 50%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0D1E31", endColorstr="#0061ff", GradientType=1 );
+}
+
+.jumbotron {
+  padding-top: 2rem !important;
+  padding-bottom: 2.0rem !important;
+  background-color: rgba(0, 0, 80, 0.05) !important;
+}
+
+.jumbotron1 {
+  padding-top: 2rem !important;
+  padding-bottom: 2.0rem !important;
+  position: relative;
+}
+
+.jumbotron1::after {
+  content: "";
+  background:  url(./assets/img/freedom-bg1.jpg) top center no-repeat black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  opacity: .09;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+textarea.form-control {
+  padding : 0 !important;
+  margin: 0 1rem !important;
+  border: 1px dotted rgba(0, 0, 128, 1) !important;
+  border-radius: 10px !important;
+  font-size: 1.2rem !important;
+  background: transparent !important;
+}
+
+
+
+
+
+
+
+

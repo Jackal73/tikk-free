@@ -1,0 +1,29 @@
+.btn-primary {
+  background: #d825f0;
+  border: 1px solid #d825f0;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+
+  // &:hover {
+  //   background: #5b25f0;
+  //   border: 1px solid #5b25f0;
+  //   cursor: pointer;
+  // }
+}
+
+.btn-outline {
+  border-color: rgba(255, 255, 255, 0.376);
+  border: 3px solid #d825f0;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+
+  // &:hover {
+  //   background: #5b25f0;
+  //   border: 3px solid #5b25f0;
+  //   cursor: pointer;
+  // }
+}

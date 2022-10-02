@@ -1,0 +1,20 @@
+.custom-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  input {
+    padding: 10px 20px;
+    line-height: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: grey;
+  }
+  label {
+    padding: 10px 20px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: rgb(66, 61, 61);
+  }
+}
