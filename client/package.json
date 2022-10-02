@@ -46,10 +46,10 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "(https://github.com/Jackal73/tikkit-frontend.git)"
+    "url": "(https://github.com/Jackal73/tikk-free.git)"
   },
   "author": "Shawn Kebel",
   "license": "ISC"

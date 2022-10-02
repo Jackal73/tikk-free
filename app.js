@@ -61,6 +61,16 @@ app.use("/v1/user", userRouter);
 app.use("/v1/ticket", ticketRouter);
 app.use("/v1/tokens", tokensRouter);
 
+const path = require('path')
+
+if (process.env.NODE_ENV === 'production') {
+  app.use('/', express.static('client/build'))
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client/build/index.html'))
+  })
+}
+
 
 // -------------- Error handler -------------------------
 const handleError = require("./src/utils/errorHandler");
