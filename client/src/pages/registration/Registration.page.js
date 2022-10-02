@@ -11,7 +11,7 @@ export const Registration = () => {
     <HeaderEntry />
     <div className="registration-page freedom-grad">
       <div className="mt-5">
-      <Jumbotron className="bg-light form-box">
+      <Jumbotron className="bg-light jumbotron-1">
         <RegistrationForm />
       </Jumbotron>
       </div>

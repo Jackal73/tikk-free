@@ -36,7 +36,7 @@ export const Dashboard = () => {
         </div>
         <Col className="text-center mt-5 mb-2">
           <Link to="/add-ticket">
-            <Button style={{ fontSize: "2rem", padding : '10px 30px' }} className="freedom-grad-rd shado bold6">Add New Statement</Button>
+            <Button style={{ fontSize: "2rem", padding: "1.5rem 2.5rem" }} className="freedom-grad-rd shado bold6">Add New Statement</Button>
           </Link>
         </Col>
       </Col>

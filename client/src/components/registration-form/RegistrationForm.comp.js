@@ -92,7 +92,7 @@ const RegistrationForm = () => {
   };
 
   return (
-    <Container>
+    <Container className="">
       <Row>
         <Col>
           <h1 className="text-grad">User Registration</h1>

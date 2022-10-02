@@ -21,10 +21,8 @@ export const Entry = () => {
   return (
   <>
     <HeaderEntry />
-
     <div className="entry-page freedom-grad">
-
-      <Jumbotron className="bg-light jumbotron-1" >
+      <Jumbotron className="bg-light jumbotron-1">
       {frmLoad === 'login' &&
         <LoginForm
           formSwitcher={formSwitcher}

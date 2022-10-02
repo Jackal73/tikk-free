@@ -58,18 +58,31 @@ footer {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0D1E31", endColorstr="#0061ff", GradientType=1 );
 }
 
-.jumbotron-1 {
-  padding-top: 2rem !important;
-  padding-bottom: 2.0rem !important;
-  /* background-color: rgba(0, 0, 80, 0.05) !important; */
-  z-index: 1;
-}
+
 
 .jumbotron {
   padding-top: 2rem !important;
   padding-bottom: 2.0rem !important;
   background-color: rgba(0, 0, 80, 0.05) !important;
-  z-index: 1;
+  z-index: 1 !important;
+}
+
+.entry-page>.jumbotron-1 {
+  padding-top: 2rem !important;
+  padding-bottom: 2.0rem !important;
+  background-color: rgba(255, 255, 255, .9) !important;
+}
+
+.registration-page>.jumbotron-1 {
+  padding-top: 2rem !important;
+  padding-bottom: 2.0rem !important;
+  background-color: rgba(255, 255, 255, .9) !important;
+}
+
+.jumbotron-1 {
+  padding-top: 2rem !important;
+  padding-bottom: 2.0rem !important;
+  background-color: rgba(255, 255, 255, .9) !important;
 }
 
 .jumbotron1 {
